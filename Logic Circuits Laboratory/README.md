@@ -3,6 +3,6 @@ I found this class very fun and interesting. We had to make groups of 2 to work 
 Regarding the class it was not hard it just takes a lot of effort despite it being considered as 1 credit in our university. I would advice you not to spend too much time on it as it takes A LOT, find yourself a great teammate, and look at the booklets a bit before coming to the experiment
 
 # Report Grades
-![my marks](https://github.com/AbdullahSh20/BLG242E/blob/main/reports.jpg)
+![my marks](reports.jpg)
 # Homework Grades
-![my marks](https://github.com/AbdullahSh20/BLG242E/blob/main/Lab%20hws.jpg)
+![my marks](Lab%20hws.jpg)
