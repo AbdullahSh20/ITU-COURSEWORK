@@ -1,0 +1,224 @@
+starting test build
+running command: g++ -Wall -Werror src/Computer.cpp src/main.cpp -I include -o assignment2
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case1
+running command: valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all ./assignment2
+  expecting (2s): "Computer is ready\s+"
+  received: "Computer is ready
+"
+  expecting (2s): "ALU is ready\s+"
+  received: "ALU is ready
+"
+  expecting (2s): "CPU is ready\s+"
+  received: "CPU is ready
+"
+  expecting (2s): "CUDA is ready\s+"
+  received: "CUDA is ready
+"
+  expecting (2s): "GPU is ready\s+"
+  received: "GPU is ready
+"
+  expecting (2s): "CPU is attached\s+"
+  received: "CPU is attached
+"
+  expecting (2s): "GPU is attached\s+"
+  received: "GPU is attached
+"
+  expecting (2s): "ALU is ready\s+"
+  received: "ALU is ready
+"
+  expecting (2s): "CPU is ready\s+"
+  received: "CPU is ready
+"
+  expecting (2s): "CUDA is ready\s+"
+  received: "CUDA is ready
+"
+  expecting (2s): "GPU is ready\s+"
+  received: "GPU is ready
+"
+  expecting (2s): "There is already a CPU\s+"
+  received: "There is already a CPU
+"
+  expecting (2s): "There is already a GPU\s+"
+  received: "There is already a GPU
+"
+  expecting (2s): "Operation type is:\s+"
+  received: "Operation type is:
+"
+  expecting (2s): "subtract\s+"
+  received: "subtract
+"
+  expecting (2s): "Enter two integers\s+"
+  received: "Enter two integers
+"
+  sending: "5"
+  sending: "3"
+  expecting (2s): "2\s+"
+  received: "2
+"
+  expecting (2s): "Operation type is:\s+"
+  received: "Operation type is:
+"
+  expecting (2s): "render\s+"
+  received: "render
+"
+  expecting (2s): "Video is rendered\s+"
+  received: "Video is rendered
+"
+  expecting (2s): "Operation type is:\s+"
+  received: "Operation type is:
+"
+  expecting (2s): "trainModel\s+"
+  received: "trainModel
+"
+  expecting (2s): "AI Model is trained\s+"
+  received: "AI Model is trained
+"
+  expecting (2s): "Operation type is:\s+"
+  received: "Operation type is:
+"
+  expecting (2s): "add\s+"
+  received: "add
+"
+  expecting (2s): "Enter two integers\s+"
+  received: "Enter two integers
+"
+  sending: "1"
+  sending: "2"
+  expecting (2s): "3\s+"
+  received: "3
+"
+  expecting (2s): "Operation type is:\s+"
+  received: "Operation type is:
+"
+  expecting (2s): "multiply\s+"
+  received: "multiply
+"
+  expecting (2s): "Enter two integers\s+"
+  received: "Enter two integers
+"
+  sending: "4"
+  sending: "5"
+  expecting (2s): "20\s+"
+  received: "20
+"
+  expecting (2s): "(.*)All heap blocks were freed -- no leaks are possible(.*)"
+  received: "==10211== 
+==10211== HEAP SUMMARY:
+==10211==     in use at exit: 0 bytes in 0 blocks
+==10211==   total heap usage: 5 allocs, 5 frees, 74,790 bytes allocated
+==10211== 
+==10211== All heap blocks were freed -- no leaks are possible
+==10211== 
+==10211== For counts of detected and suppressed errors, rerun with: -v
+==10211== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+"
+exit status: 0 (expected 0)
+starting test case2
+running command: ./assignment2
+  expecting (2s): "Computer is ready\s+"
+  received: "Computer is ready
+"
+  expecting (2s): "ALU is ready\s+"
+  received: "ALU is ready
+"
+  expecting (2s): "CPU is ready\s+"
+  received: "CPU is ready
+"
+  expecting (2s): "CUDA is ready\s+"
+  received: "CUDA is ready
+"
+  expecting (2s): "GPU is ready\s+"
+  received: "GPU is ready
+"
+  expecting (2s): "CPU is attached\s+"
+  received: "CPU is attached
+"
+  expecting (2s): "GPU is attached\s+"
+  received: "GPU is attached
+"
+  expecting (2s): "ALU is ready\s+"
+  received: "ALU is ready
+"
+  expecting (2s): "CPU is ready\s+"
+  received: "CPU is ready
+"
+  expecting (2s): "CUDA is ready\s+"
+  received: "CUDA is ready
+"
+  expecting (2s): "GPU is ready\s+"
+  received: "GPU is ready
+"
+  expecting (2s): "There is already a CPU\s+"
+  received: "There is already a CPU
+"
+  expecting (2s): "There is already a GPU\s+"
+  received: "There is already a GPU
+"
+  expecting (2s): "Operation type is:\s+"
+  received: "Operation type is:
+"
+  expecting (2s): "subtract\s+"
+  received: "subtract
+"
+  expecting (2s): "Enter two integers\s+"
+  received: "Enter two integers
+"
+  sending: "5"
+  sending: "3"
+  expecting (2s): "2\s+"
+  received: "2
+"
+  expecting (2s): "Operation type is:\s+"
+  received: "Operation type is:
+"
+  expecting (2s): "render\s+"
+  received: "render
+"
+  expecting (2s): "Video is rendered\s+"
+  received: "Video is rendered
+"
+  expecting (2s): "Operation type is:\s+"
+  received: "Operation type is:
+"
+  expecting (2s): "trainModel\s+"
+  received: "trainModel
+"
+  expecting (2s): "AI Model is trained\s+"
+  received: "AI Model is trained
+"
+  expecting (2s): "Operation type is:\s+"
+  received: "Operation type is:
+"
+  expecting (2s): "add\s+"
+  received: "add
+"
+  expecting (2s): "Enter two integers\s+"
+  received: "Enter two integers
+"
+  sending: "1"
+  sending: "2"
+  expecting (2s): "3\s+"
+  received: "3
+"
+  expecting (2s): "Operation type is:\s+"
+  received: "Operation type is:
+"
+  expecting (2s): "multiply\s+"
+  received: "multiply
+"
+  expecting (2s): "Enter two integers\s+"
+  received: "Enter two integers
+"
+  sending: "4"
+  sending: "5"
+  expecting (2s): "20\s+"
+  received: "20
+"
+exit status: 0 (expected 0)
+build .................................... 20 / 20
+case1 .................................... 20 / 20
+case2 .................................... 60 / 60
+Grade: 100 / 100

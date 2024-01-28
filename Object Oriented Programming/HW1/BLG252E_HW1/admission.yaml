@@ -1,0 +1,29 @@
+- build:
+    run: g++ -Wall -Werror src/main.cpp src/university.cpp src/student.cpp -I include -o bin/main
+    exit: 0
+    blocker: true
+
+###--- This calico file is for you to check your code.                                    ---###
+###--- Before submitting please make sure you are passing all cases.                      ---###
+###--- Passing all cases shows you that your output is compatible with the grading file.  ---###
+
+- case1:
+    run: ./bin/main
+    points: 100
+    script:
+      - expect: 'Welcome to the University Admission System!\s+'
+      - expect: 'Micheal logged in to the system.\s+'
+      - expect: 'Ross logged in to the system.\s+'
+      - expect: 'Amy logged in to the system.\s+'
+      - expect: 'Micheal logged in to the system.\s+'
+      - expect: 'Micheal is admitted to Scranton State University.\s+'
+      - expect: 'Ross is admitted to Central Perk College.\s+'
+      - expect: 'Ross is rejected from Brooklyn Institute of Technology.\s+'
+      - expect: 'Ross is rejected from McLaren''s University.\s+'
+      - expect: 'Amy is admitted to Scranton State University.\s+'
+      - expect: 'Amy is rejected from McLaren''s University.\s+'
+      - expect: 'Lily logged out of the system with 0 application\(s\).\s+'
+      - expect: 'Amy logged out of the system with 2 application\(s\).\s+'
+      - expect: 'Ross logged out of the system with 3 application\(s\).\s+'
+      - expect: 'Micheal logged out of the system with 1 application\(s\).\s+'
+      - expect: '_EOF_'

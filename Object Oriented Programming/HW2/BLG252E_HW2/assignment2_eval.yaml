@@ -1,0 +1,119 @@
+
+- build:
+    run: g++ -Wall -Werror src/Computer.cpp src/main.cpp -I include -o assignment2
+    exit: 0
+    points: 20
+    blocker: true
+
+###---This calico file is for you to check your code.---###
+###---Before Submitting please make sure you are passing all cases.---###
+###---Passing all cases will show you that your output has compatible with the grading file---###
+- case1: 
+    run: valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all ./assignment2
+    script:
+    - expect: 'Computer is ready\s+'
+    - expect: 'ALU is ready\s+'
+    - expect: 'CPU is ready\s+'
+    - expect: 'CUDA is ready\s+'
+    - expect: 'GPU is ready\s+'
+
+    - expect: 'CPU is attached\s+'
+    - expect: 'GPU is attached\s+'
+
+    - expect: 'ALU is ready\s+'
+    - expect: 'CPU is ready\s+'
+    - expect: 'CUDA is ready\s+'
+    - expect: 'GPU is ready\s+'
+
+    - expect: 'There is already a CPU\s+'
+    - expect: 'There is already a GPU\s+'
+
+    - expect: 'Operation type is:\s+'
+    - expect: 'subtract\s+'
+    - expect: 'Enter two integers\s+'
+    - send: '5'
+    - send: '3'
+    - expect: '2\s+'
+
+    - expect: 'Operation type is:\s+'
+    - expect: 'render\s+'
+    - expect: 'Video is rendered\s+'
+
+    - expect: 'Operation type is:\s+'
+    - expect: 'trainModel\s+'
+    - expect: 'AI Model is trained\s+'
+
+    - expect: 'Operation type is:\s+'
+    - expect: 'add\s+'
+    - expect: 'Enter two integers\s+'
+    - send: '1'
+    - send: '2'
+    - expect: '3\s+'
+
+    - expect: 'Operation type is:\s+'
+    - expect: 'multiply\s+'
+    - expect: 'Enter two integers\s+'
+    - send: '4'
+    - send: '5'
+    - expect: '20\s+'
+
+    - expect: '(.*)All heap blocks were freed -- no leaks are possible(.*)'
+
+
+    
+    exit: 0
+    points: 20
+
+- case2: 
+    run: ./assignment2
+    script:
+    - expect: 'Computer is ready\s+'
+    - expect: 'ALU is ready\s+'
+    - expect: 'CPU is ready\s+'
+    - expect: 'CUDA is ready\s+'
+    - expect: 'GPU is ready\s+'
+
+    - expect: 'CPU is attached\s+'
+    - expect: 'GPU is attached\s+'
+
+    - expect: 'ALU is ready\s+'
+    - expect: 'CPU is ready\s+'
+    - expect: 'CUDA is ready\s+'
+    - expect: 'GPU is ready\s+'
+
+    - expect: 'There is already a CPU\s+'
+    - expect: 'There is already a GPU\s+'
+
+    - expect: 'Operation type is:\s+'
+    - expect: 'subtract\s+'
+    - expect: 'Enter two integers\s+'
+    - send: '5'
+    - send: '3'
+    - expect: '2\s+'
+
+    - expect: 'Operation type is:\s+'
+    - expect: 'render\s+'
+    - expect: 'Video is rendered\s+'
+
+    - expect: 'Operation type is:\s+'
+    - expect: 'trainModel\s+'
+    - expect: 'AI Model is trained\s+'
+
+    - expect: 'Operation type is:\s+'
+    - expect: 'add\s+'
+    - expect: 'Enter two integers\s+'
+    - send: '1'
+    - send: '2'
+    - expect: '3\s+'
+
+    - expect: 'Operation type is:\s+'
+    - expect: 'multiply\s+'
+    - expect: 'Enter two integers\s+'
+    - send: '4'
+    - send: '5'
+    - expect: '20\s+'
+
+
+    
+    exit: 0
+    points: 60

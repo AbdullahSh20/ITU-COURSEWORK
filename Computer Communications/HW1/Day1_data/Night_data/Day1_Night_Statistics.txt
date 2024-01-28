@@ -1,0 +1,11 @@
+      Destination  Max Delay  Min Delay  Average Delay
+0       cam.ac.uk    107.821     60.384      74.840880
+1  en.iyte.edu.tr     94.647     13.258      39.301289
+2  erbakan.edu.tr     72.558      4.598      18.718804
+3      google.com     42.213     14.400      21.047770
+4      itu.edu.tr     32.839     15.199      23.315379
+5   kyoto-u.ac.jp     73.777     14.162      27.566280
+6     metu.edu.tr     24.291     13.174      19.281193
+7         mit.edu    315.852     46.369     114.528627
+8    univie.ac.at    126.915     27.736      52.087877
+9          uzh.ch    106.704     47.881      62.028439

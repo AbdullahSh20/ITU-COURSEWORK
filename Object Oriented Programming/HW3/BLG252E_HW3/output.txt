@@ -1,0 +1,125 @@
+Electric Pokemon Pikachu has entered the arena. 
+Class: Electric
+        Name: Pikachu
+        HP: 150
+        Damage: 20
+
+
+Psychic Pokemon Abra has entered the arena.
+Class: Psychic
+        Name: Abra
+        HP: 120
+        Damage: 10
+
+
+Round: 1
+Current Terrain: none
+Pikachu goes first. 
+Abra has initiated a power up. 
+Pikachu HP: 140
+Abra HP: 100
+Pikachu is in the lead! 
+
+
+Round: 2
+Current Terrain: none
+Abra goes first. 
+Pikachu HP: 130
+Abra HP: 100
+Pikachu is in the lead! 
+
+
+Round: 3
+Current Terrain: psychic
+Pikachu goes first. 
+Pikachu HP: 110
+Abra HP: 100
+Pikachu is in the lead! 
+
+
+Round: 4
+Current Terrain: psychic
+Pikachu goes first. 
+Pikachu HP: 90
+Abra HP: 100
+Abra is in the lead! 
+
+
+Round: 5
+Current Terrain: psychic
+Abra goes first. 
+Pikachu has initiated a power up. 
+Pikachu HP: 70
+Abra HP: 40
+Pikachu is in the lead! 
+
+
+Round: 6
+Current Terrain: psychic
+Abra goes first. 
+Pikachu HP: 50
+Abra HP: 20
+Pikachu is in the lead! 
+
+
+Round: 7
+Current Terrain: psychic
+Pikachu goes first. 
+Pikachu HP: 50
+Abra HP: 0
+Pikachu is in the lead! 
+
+
+Match Results: 
+Pikachu has won the match! 
+
+
+Electric Pokemon Jolteon has entered the arena. 
+Class: Electric
+        Name: Jolteon
+        HP: 150
+        Damage: 10
+
+
+Psychic Pokemon Kadabra has entered the arena.
+Class: Psychic
+        Name: Kadabra
+        HP: 100
+        Damage: 20
+
+
+Round: 1
+Current Terrain: psychic
+Kadabra goes first. 
+Jolteon HP: 110
+Kadabra HP: 90
+Jolteon is in the lead! 
+
+
+Round: 2
+Current Terrain: psychic
+Jolteon goes first. 
+Kadabra has initiated a power up. 
+Jolteon HP: 70
+Kadabra HP: 80
+Kadabra is in the lead! 
+
+
+Round: 3
+Current Terrain: psychic
+Jolteon goes first. 
+Jolteon HP: 30
+Kadabra HP: 80
+Kadabra is in the lead! 
+
+
+Round: 4
+Current Terrain: psychic
+Jolteon goes first. 
+Jolteon HP: 0
+Kadabra HP: 80
+Kadabra is in the lead! 
+
+
+Match Results: 
+Kadabra has won the match! 
