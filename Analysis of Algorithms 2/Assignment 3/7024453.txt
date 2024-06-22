@@ -1,0 +1,160 @@
+==18738== Memcheck, a memory error detector
+==18738== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==18738== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==18738== Command: ./main 1
+==18738== 
+Best Schedule for Each Floor
+Floor_1 --> Priority Gain: 340
+Floor_1	Room_1	07:00	09:00
+Floor_1	Room_2	09:00	11:00
+Floor_1	Room_2	12:00	14:00
+Floor_1	Room_2	15:00	17:00
+Floor_2 --> Priority Gain: 240
+Floor_2	Room_2	09:00	12:00
+Floor_2	Room_1	13:00	16:00
+Floor_2	Room_1	16:00	19:00
+Floor_3 --> Priority Gain: 325
+Floor_3	Room_2	09:00	10:00
+Floor_3	Room_1	10:00	11:00
+Floor_3	Room_2	11:00	12:00
+Floor_3	Room_3	12:00	13:00
+Floor_3	Room_3	13:00	14:00
+Floor_3	Room_1	14:00	15:00
+Floor_3	Room_2	15:00	16:00
+Floor_3	Room_3	16:00	17:00
+Floor_3	Room_3	17:00	18:00
+Best Use of Budget
+Total Value --> 34.8
+Chair_3
+Chair_2
+Chair_1
+Keyboard_2
+Keyboard_1
+Computer_1
+Desk_3
+Desk_2
+Desk_1
+Cable_Set_2
+Cable_Set_1
+Computer_3
+Computer_2
+Monitor_2
+Monitor_1
+==18738== 
+==18738== HEAP SUMMARY:
+==18738==     in use at exit: 0 bytes in 0 blocks
+==18738==   total heap usage: 188 allocs, 188 frees, 36,942,160 bytes allocated
+==18738== 
+==18738== All heap blocks were freed -- no leaks are possible
+==18738== 
+==18738== For lists of detected and suppressed errors, rerun with: -s
+==18738== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==18790== Memcheck, a memory error detector
+==18790== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==18790== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==18790== Command: ./main 2
+==18790== 
+Best Schedule for Each Floor
+Floor_1 --> Priority Gain: 585
+Floor_1	Room_1	08:15	10:00
+Floor_1	Room_1	10:15	11:30
+Floor_1	Room_1	12:00	13:30
+Floor_1	Room_1	13:40	15:10
+Floor_1	Room_1	15:30	17:00
+Floor_1	Room_3	17:00	18:00
+Floor_1	Room_3	18:15	19:15
+Floor_1	Room_3	19:40	20:40
+Floor_2 --> Priority Gain: 450
+Floor_2	Room_6	07:35	09:05
+Floor_2	Room_6	09:40	11:10
+Floor_2	Room_5	11:10	12:55
+Floor_2	Room_5	13:20	15:05
+Floor_2	Room_5	15:30	17:15
+Floor_2	Room_5	17:40	19:25
+Floor_3 --> Priority Gain: 425
+Floor_3	Room_2	08:15	10:00
+Floor_3	Room_2	10:45	12:30
+Floor_3	Room_2	13:15	15:00
+Floor_3	Room_2	15:45	17:30
+Floor_3	Room_2	18:15	20:00
+Floor_4 --> Priority Gain: 475
+Floor_4	Room_1	09:45	11:30
+Floor_4	Room_1	11:50	13:35
+Floor_4	Room_1	14:15	16:00
+Floor_4	Room_1	16:30	18:15
+Floor_4	Room_1	18:55	20:40
+Best Use of Budget
+Total Value --> 36.7
+Smartboard
+Chair_2
+Chair_1
+Keyboard_2
+Keyboard_1
+Computer_1
+Mouse
+Desk_3
+Desk_2
+Desk_1
+Cable_Set_2
+Cable_Set_1
+Computer_3
+Monitor_3
+Monitor_2
+Monitor_1
+==18790== 
+==18790== HEAP SUMMARY:
+==18790==     in use at exit: 0 bytes in 0 blocks
+==18790==   total heap usage: 269 allocs, 269 frees, 41,792,525 bytes allocated
+==18790== 
+==18790== All heap blocks were freed -- no leaks are possible
+==18790== 
+==18790== For lists of detected and suppressed errors, rerun with: -s
+==18790== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==18827== Memcheck, a memory error detector
+==18827== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==18827== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==18827== Command: ./main 3
+==18827== 
+Best Schedule for Each Floor
+Floor_1 --> Priority Gain: 305
+Floor_1	Room_2	09:00	10:30
+Floor_1	Room_3	10:30	12:00
+Floor_1	Room_1	12:00	13:45
+Floor_1	Room_1	14:00	15:30
+Floor_2 --> Priority Gain: 275
+Floor_2	Room_1	09:00	10:30
+Floor_2	Room_4	10:30	12:00
+Floor_2	Room_1	12:15	13:30
+Floor_2	Room_1	14:00	15:30
+Floor_3 --> Priority Gain: 225
+Floor_3	Room_1	09:30	11:15
+Floor_3	Room_1	12:00	13:30
+Floor_3	Room_1	14:00	15:30
+Best Use of Budget
+Total Value --> 41.0
+Projection_screen
+Projector
+Chair_3
+Chair_2
+Keyboard_1
+Computer_1
+Mouse
+Whiteboard_2
+Desk_3
+Desk_2
+Cable_Set_3
+Cable_Set_2
+Cable_Set_1
+Computer_2
+Monitor_3
+Monitor_2
+Monitor_1
+==18827== 
+==18827== HEAP SUMMARY:
+==18827==     in use at exit: 0 bytes in 0 blocks
+==18827==   total heap usage: 225 allocs, 225 frees, 41,757,689 bytes allocated
+==18827== 
+==18827== All heap blocks were freed -- no leaks are possible
+==18827== 
+==18827== For lists of detected and suppressed errors, rerun with: -s
+==18827== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
