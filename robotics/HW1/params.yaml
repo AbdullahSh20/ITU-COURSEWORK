@@ -1,0 +1,5 @@
+lookahead_distance : 0.5 #one bakma mesafesi
+speed : 0.25 #maksimum hiz
+expansion_size : 3 #duvar genisletme katsayisi
+target_error : 0.25 #hedefe olan hata payi
+robot_r : 0.3 #lokal guvenlik icin robot mesafesi
